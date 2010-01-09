@@ -9,8 +9,10 @@ meta-spec:
   version: 1.4
 name: EFL
 requires:
+  Sub::Exporter: 0
+  Test::More: 0.83
   perl: 5.10.0
 resources:
   homepage: http://search.cpan.org/dist/EFL
   repository: http://github.com/aflott/libefl-perl
-version: 0.500
+version: 0.501

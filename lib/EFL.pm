@@ -7,7 +7,8 @@ use 5.10.0;
 use strict;
 use warnings;
 
-our $VERSION    = '0.50';
+
+our $VERSION    = '0.501';
 our $XS_VERSION = $VERSION;
 
 use EFL::Eina qw(:all);
@@ -41,7 +42,7 @@ EFL - Perl bindings for the Enlightenment Foundation Libraries
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 SYNOPSIS
 
@@ -171,6 +172,26 @@ Some thanks for helping me out.
 =item * L<Audio::XMMSClient> for showing me some XS tricks.
 
 =item * L<Dist::Zilla> and L<Pod::Weaver> for making it easier to manage releases/POD.
+
+=back
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc EFL
+
+You can also look for information at:
+
+=over
+
+=item * RT: CPAN's request tracker: L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=EFL>
+
+=item * AnnoCPAN: Annotated CPAN documentation: L<http://annocpan.org/dist/EFL>
+
+=item * CPAN Ratings: L<http://cpanratings.perl.org/d/EFL>
+
+=item * Search CPAN: L<http://search.cpan.org/dist/EFL>
 
 =back
 
